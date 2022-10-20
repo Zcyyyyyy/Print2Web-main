@@ -1,77 +1,65 @@
-.page1-container {
+.page2-container {
+  position: absolute;
+  top: 0px;
+  left: 1440px;
   display: grid;
-  /*grid-template-columns: auto auto auto auto auto auto;*/
-  background-color: rgb(255, 255, 255);
+  /* grid-template-columns: auto auto auto auto auto auto; */
+  background-color: rgb(63, 79, 83);
   padding: 0px;
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
   overflow-x: scroll;
 }
-
-.column {
-  background-color: rgba(255, 255, 255);
-  border: 20px solid rgba(255, 255, 255);
+.columnII {
+  background-color: rgba(63, 79, 83, 0.8);
+  border: 20px solid rgba(63, 79, 83, 0.8);
   /* border: 20px; */
   padding: 0px;
   font-size: 30px;
   text-align: center;
 }
-#column1 {
+
+#column6 {
   grid-column: 1 / span 3;
   grid-row: 1;
   display: flex;
   justify-content: space-around;
 }
-#How-h {
-  width: 270px;
-  height: 200px;
-  background-image: url("img/P1/P1_How_h.jpg");
+#Open_o {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/OPEN_o.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-p {
-  position: relative;
-  top: 70px;
-  left: 100px;
-  color: rgb(3, 3, 3);
-  font-family: sans-serif;
-  font-size: 170px;
-  opacity: 0;
-  font-family: "Lora", serif;
-}
-p:hover {
-  opacity: 1;
-  z-index: 1;
-}
-.s {
-  position: relative;
-  top: 70px;
-  left: 100px;
-  color: rgb(3, 3, 3);
-  font-family: sans-serif;
-  font-size: 170px;
-  opacity: 1;
-  font-family: "Lora", serif;
-  z-index: 1;
-}
-#How-o {
-  width: 270px;
-  height: 200px;
-  background-image: url("img/P1/P1__HOW_o.jpg");
+#Open_p {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/OPEN_p.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#How-w {
-  width: 270px;
-  height: 200px;
-  background-image: url("img/P1/P1_HOW_w.jpg");
+#Open_e {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/OPEN_e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Open_n {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/OPEN_n.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
@@ -79,110 +67,36 @@ p:hover {
   opacity: 0.8;
 }
 
-#column2 {
-  grid-column: 4 / span 3;
-  grid-row: 1;
-  display: flex;
-  justify-content: space-around;
-}
-#To-t {
-  width: 250px;
-  height: 200px;
-  background-image: url("img/P1/P1_TO_t.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#To-o {
-  width: 250px;
-  height: 200px;
-  background-image: url("img/P1/P1_TO_o.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-
-#column3 {
-  grid-column: 1 / span 3;
-  grid-row: 2;
-  display: flex;
-  justify-content: space-around;
-}
-#Light-l {
-  position: relative;
-  top: 30px;
-  width: 150px;
-  height: 250px;
-  background-image: url("img/P1/P1_LIGHT_l.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Light-i {
-  position: relative;
-  top: 30px;
-  width: 150px;
-  height: 250px;
-  background-image: url("img/P1/P1_LIGHT_i.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Light-g {
-  position: relative;
-  top: 30px;
-  width: 150px;
-  height: 250px;
-  background-image: url("img/P1/P1_LIGHT_g.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Light-h {
-  position: relative;
-  top: 30px;
-  width: 150px;
-  height: 250px;
-  background-image: url("img/P1/P1_LIGHT_h.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Light-t {
-  position: relative;
-  top: 30px;
-  width: 150px;
-  height: 250px;
-  background-image: url("img/P1/P1_LIGHT_t.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-
-#column4 {
+#column7 {
   grid-column: 5 / span 2;
-  grid-row: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-around;
 }
-#A-a {
-  position: relative;
-  left: -30px;
-  width: 430px;
-  height: 200px;
-  background-image: url("img/P1/P1_A_a.jpg");
+#The_t {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/THE_t.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#The_h {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/THE_h.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#The_e {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P2/THE_e.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
@@ -190,15 +104,136 @@ p:hover {
   opacity: 0.8;
 }
 
-#column5 {
-  grid-column: 2 / span 5;
+#column8 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  /*space holder*/
+}
+
+#column12 {
+  grid-column: 2 / span 4;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-around;
+}
+#Lid_l {
+  width: 320px;
+  height: 185px;
+  background-image: url("img/P2/LID_l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Lid_i {
+  width: 320px;
+  height: 185px;
+  background-image: url("img/P2/LID_i.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Lid_d {
+  width: 320px;
+  height: 185px;
+  background-image: url("img/P2/LID_d.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column9 {
+  grid-column: 1 / span 2;
   grid-row: 3;
   display: flex;
   justify-content: space-around;
 }
-#Candle_c {
-  width: 170px;
-  height: 250px;
+#Of_o {
+  position: relative;
+  top: 20px;
+  width: 150px;
+  height: 120px;
+  background-image: url("img/P2/OF_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Of_f {
+  position: relative;
+  top: 20px;
+  width: 150px;
+  height: 120px;
+  background-image: url("img/P2/OF_f.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column10 {
+  grid-column: 3 / span 4;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+}
+#Your_y {
+  width: 240px;
+  height: 170px;
+  background-image: url("img/P2/YOUR_y.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Your_o {
+  width: 240px;
+  height: 170px;
+  background-image: url("img/P2/YOUR_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Your_u {
+  width: 240px;
+  height: 170px;
+  background-image: url("img/P2/YOUR_u.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Your_r {
+  width: 240px;
+  height: 170px;
+  background-image: url("img/P2/YOUR_r.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column11 {
+  grid-column: 2 / span 4;
+  grid-row: 4;
+  display: flex;
+  justify-content: space-around;
+}
+#Candle_c2 {
+  width: 155px;
+  height: 218px;
   background-image: url("img/P1/P1_CANDLE_c.jpg");
   background-size: cover;
   background-position: center;
@@ -206,9 +241,9 @@ p:hover {
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_a {
-  width: 170px;
-  height: 250px;
+#Candle_a2 {
+  width: 155px;
+  height: 218px;
   background-image: url("img/P1/P1_CANDLE_a.jpg");
   background-size: cover;
   background-position: center;
@@ -216,9 +251,9 @@ p:hover {
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_n {
-  width: 170px;
-  height: 250px;
+#Candle_n2 {
+  width: 155px;
+  height: 218px;
   background-image: url("img/P1/P1_CANDLE_n.jpg");
   background-size: cover;
   background-position: center;
@@ -226,9 +261,9 @@ p:hover {
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_d {
-  width: 170px;
-  height: 250px;
+#Candle_d2 {
+  width: 155px;
+  height: 218px;
   background-image: url("img/P1/P1_CANDLE_d.jpg");
   background-size: cover;
   background-position: center;
@@ -236,9 +271,9 @@ p:hover {
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_l {
-  width: 170px;
-  height: 250px;
+#Candle_l2 {
+  width: 155px;
+  height: 218px;
   background-image: url("img/P1/P1_CANDLE_l.jpg");
   background-size: cover;
   background-position: center;
@@ -246,13 +281,19 @@ p:hover {
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_e {
-  width: 170px;
-  height: 250px;
+#Candle_e2 {
+  width: 155px;
+  height: 218px;
   background-image: url("img/P1/P1_CANDLE_e.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
+}
+
+#column13 {
+  grid-column: 1 / span 1;
+  grid-row: 4;
+  /*space holder*/
 }
