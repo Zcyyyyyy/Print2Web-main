@@ -36,10 +36,10 @@
 p {
   position: relative;
   top: 70px;
-  left: 100px;
-  color: rgb(3, 3, 3);
+  left: 50px;
+  color: rgb(110, 96, 33);
   font-family: sans-serif;
-  font-size: 170px;
+  font-size: 200px;
   opacity: 0;
   font-family: "Lora", serif;
 }
@@ -53,7 +53,7 @@ p:hover {
   left: 100px;
   color: rgb(3, 3, 3);
   font-family: sans-serif;
-  font-size: 170px;
+  font-size: 100px;
   opacity: 1;
   font-family: "Lora", serif;
   z-index: 1;
