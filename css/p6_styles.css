@@ -73,7 +73,7 @@
   background-image: url("img/P6/ENJOY_Y.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -165,7 +165,7 @@
   background-image: url("img/P6/SMELL_e.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
   border: 20px solid white;

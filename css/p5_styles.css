@@ -41,7 +41,7 @@
   background-image: url("img/P5/LET_l.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -51,7 +51,7 @@
   background-image: url("img/P5/LET_e.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(20, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -61,7 +61,7 @@
   background-image: url("img/P5/LET_t.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -162,6 +162,36 @@
   display: flex;
   justify-content: space-around;
 }
+#The_t6 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/THE_t.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#The_h6 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/THE_h.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#The_e6 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/THE_e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
 
 #column33 {
   grid-column: 6 / span 1;
@@ -191,7 +221,7 @@
   background-image: url("img/P5/WAX_w.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -201,7 +231,7 @@
   background-image: url("img/P5/WAX_a.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -211,7 +241,7 @@
   background-image: url("img/P5/WAX_x.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
