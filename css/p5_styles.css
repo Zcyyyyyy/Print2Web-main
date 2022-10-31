@@ -1,0 +1,399 @@
+.page5-container {
+  position: absolute;
+  top: 0px;
+  left: 5790px;
+  display: grid;
+  /* grid-template-columns: auto auto auto auto auto auto; */
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-x: scroll;
+}
+
+.columnV {
+  background-color: rgba(255, 255, 255 0.8);
+  border: 20px solid rgba(255, 255, 255, 0.8);
+  /* border: 20px; */
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#column26 {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column27 {
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-around;
+}
+#Let_l {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/LET_l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Let_e {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/LET_e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Let_t {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/LET_t.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column28 {
+  grid-column: 4 / span 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-around;
+}
+#All_a {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/ALL_a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#All_l {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/ALL_l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#All_l2 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/ALL_l2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column29 {
+  grid-column: 6 / span 1;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column30 {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column31 {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-around;
+}
+#The_t2 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/THE_t.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#The_h2 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/THE_h.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#The_e2 {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/THE_e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column32 {
+  grid-column: 4 / span 2;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+#column33 {
+  grid-column: 6 / span 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column34 {
+  grid-column: 1 / span 1;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column35 {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+}
+#Wax_w {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/WAX_w.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Wax_a {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/WAX_a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Wax_x {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/WAX_x.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column36 {
+  grid-column: 4 / span 2;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+}
+#Way_w {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/WAY_w.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Way_a {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/WAY_a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Way_y {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/WAY_y.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column37 {
+  grid-column: 6 / span 1;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column38 {
+  grid-column: 1 / span 1;
+  grid-row: 4;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}
+
+#column39 {
+  grid-column: 2 / span 2;
+  grid-row: 4;
+  display: flex;
+  justify-content: space-around;
+}
+#Melt_m {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/MELT_m.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Melt_e {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/MELT_e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Melt_l {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/MELT_l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Melt_t {
+  width: 130px;
+  height: 130px;
+  background-image: url("img/P5/MELT_t.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+
+#column40 {
+  grid-column: 4 / span 2;
+  grid-row: 4;
+  display: flex;
+  justify-content: space-around;
+}
+#Across_a {
+  width: 75px;
+  height: 130px;
+  background-image: url("img/P5/ACROSS_a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#Across_c {
+  width: 75px;
+  height: 130px;
+  background-image: url("img/P5/ACROSS_c.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+
+#Across_r {
+  width: 75px;
+  height: 130px;
+  background-image: url("img/P5/ACROSS_r.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#Across_o {
+  width: 75px;
+  height: 130px;
+  background-image: url("img/P5/ACROSS_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#Across_s {
+  width: 75px;
+  height: 130px;
+  background-image: url("img/P5/ACROSS_s.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#Across_s2 {
+  width: 75px;
+  height: 130px;
+  background-image: url("img/P5/ACROSS_s2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+
+#column41 {
+  grid-column: 6 / span 1;
+  grid-row: 4;
+  display: flex;
+  justify-content: space-around;
+  /*space holder*/
+}

@@ -1,7 +1,7 @@
-.page2-container {
+.page3-container {
   position: absolute;
   top: 0px;
-  left: 1440px;
+  left: 2890px;
   display: grid;
   /* grid-template-columns: auto auto auto auto auto auto; */
   background-color: rgb(255, 255, 255);
@@ -11,7 +11,8 @@
   overflow-x: hidden;
   overflow-x: scroll;
 }
-.columnII {
+
+.columnIII {
   background-color: rgba(255, 255, 255 0.8);
   border: 20px solid rgba(255, 255, 255, 0.8);
   /* border: 20px; */
@@ -20,280 +21,318 @@
   text-align: center;
 }
 
-#column6 {
+#column14 {
   grid-column: 1 / span 3;
   grid-row: 1;
   display: flex;
   justify-content: space-around;
 }
-#Open_o {
+
+#Trim_t {
   width: 180px;
   height: 170px;
-  background-image: url("img/P2/OPEN_o.jpg");
+  background-image: url("img/P3/TRIM_t.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Open_p {
+#Trim_r {
   width: 180px;
   height: 170px;
-  background-image: url("img/P2/OPEN_p.jpg");
+  background-image: url("img/P3/TRIM_r.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Open_e {
+#Trim_i {
   width: 180px;
   height: 170px;
-  background-image: url("img/P2/OPEN_e.jpg");
+  background-image: url("img/P3/TRIM_i.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Open_n {
+#Trim_m {
   width: 180px;
   height: 170px;
-  background-image: url("img/P2/OPEN_n.jpg");
+  background-image: url("img/P3/TRIM_m.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
 
-#column7 {
+#column15 {
   grid-column: 5 / span 2;
   grid-row: 1;
   display: flex;
   justify-content: space-around;
 }
-#The_t {
-  width: 180px;
-  height: 170px;
+#The_t1 {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: 20px;
   background-image: url("img/P2/THE_t.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
+  border: 10px solid white;
 }
-#The_h {
-  width: 180px;
-  height: 170px;
+#The_h1 {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: 20px;
   background-image: url("img/P2/THE_h.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
+  border: 10px solid white;
 }
-#The_e {
-  width: 180px;
-  height: 170px;
+#The_e1 {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: 20px;
   background-image: url("img/P2/THE_e.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
+  border: 10px solid white;
 }
 
-#column8 {
-  grid-column: 1 / span 2;
-  grid-row: 2;
-  /*space holder*/
-}
-
-#column12 {
-  grid-column: 2 / span 4;
+#column16 {
+  grid-column: 1 / span 3;
   grid-row: 2;
   display: flex;
   justify-content: space-around;
 }
-#Lid_l {
-  width: 320px;
-  height: 185px;
-  background-image: url("img/P2/LID_l.jpg");
+#Wick_w {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/WICK_w.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Lid_i {
-  width: 320px;
-  height: 185px;
-  background-image: url("img/P2/LID_i.jpg");
+#Wick_i {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/WICK_i.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Lid_d {
-  width: 320px;
-  height: 185px;
-  background-image: url("img/P2/LID_d.jpg");
+#Wick_c {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/WICK_c.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(255, 0, 128);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Wick_k {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/WICK_k.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
 
-#column9 {
+#column17 {
   grid-column: 1 / span 2;
   grid-row: 3;
   display: flex;
   justify-content: space-around;
 }
-#Of_o {
-  position: relative;
-  top: 20px;
-  width: 150px;
-  height: 120px;
-  background-image: url("img/P2/OF_o.jpg");
+#Every_e {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/EVERY_e.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
+  border: 10px solid white;
 }
-#Of_f {
-  position: relative;
-  top: 20px;
-  width: 150px;
-  height: 120px;
-  background-image: url("img/P2/OF_f.jpg");
+#Every_v {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/EVERY_v.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
+  border: 10px solid white;
 }
-
-#column10 {
-  grid-column: 3 / span 4;
+#Every_eI {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/EVERY_e1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#Every_r {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/EVERY_r.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#Every_y {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/EVERY_y.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+  border: 10px solid white;
+}
+#column18 {
+  grid-column: 4 / span 4;
   grid-row: 3;
   display: flex;
   justify-content: space-around;
 }
-#Your_y {
-  width: 240px;
-  height: 170px;
-  background-image: url("img/P2/YOUR_y.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Your_o {
-  width: 240px;
-  height: 170px;
-  background-image: url("img/P2/YOUR_o.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(255, 0, 128);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Your_u {
-  width: 240px;
-  height: 170px;
-  background-image: url("img/P2/YOUR_u.jpg");
+#Single_s {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/SINGLE_s.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Your_r {
-  width: 240px;
-  height: 170px;
-  background-image: url("img/P2/YOUR_r.jpg");
+#Single_i {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/SINGLE_i.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Single_n {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/SINGLE_n.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Single_g {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/SINGLE_g.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Single_l {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/SINGLE_l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
+  background-blend-mode: lighten;
+  opacity: 0.8;
+}
+#Single_e {
+  width: 105px;
+  height: 198px;
+  background-image: url("img/P3/SINGLE_e.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
 
-#column11 {
+#column19 {
   grid-column: 2 / span 4;
   grid-row: 4;
   display: flex;
   justify-content: space-around;
 }
-#Candle_c2 {
-  width: 155px;
-  height: 218px;
-  background-image: url("img/P1/P1_CANDLE_c.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(0, 183, 255);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Candle_a2 {
-  width: 155px;
-  height: 218px;
-  background-image: url("img/P1/P1_CANDLE_a.jpg");
+#Time_t {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/TIME_t.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_n2 {
-  width: 155px;
-  height: 218px;
-  background-image: url("img/P1/P1_CANDLE_n.jpg");
+#Time_i {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/TIME_i.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_d2 {
-  width: 155px;
-  height: 218px;
-  background-image: url("img/P1/P1_CANDLE_d.jpg");
+#Time_m {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/TIME_m.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
-#Candle_l2 {
-  width: 155px;
-  height: 218px;
-  background-image: url("img/P1/P1_CANDLE_l.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(0, 183, 255);
-  background-blend-mode: lighten;
-  opacity: 0.8;
-}
-#Candle_e2 {
-  width: 155px;
-  height: 218px;
-  background-image: url("img/P1/P1_CANDLE_e.jpg");
+#Time_e {
+  width: 180px;
+  height: 170px;
+  background-image: url("img/P3/TIME_e.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
-}
-
-#column13 {
-  grid-column: 1 / span 1;
-  grid-row: 4;
-  /*space holder*/
 }

@@ -29,7 +29,7 @@
   background-image: url("img/P1/P1_How_h.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -37,7 +37,7 @@ p {
   position: relative;
   top: 70px;
   left: 50px;
-  color: rgb(110, 96, 33);
+  color: rgb(3, 3, 26);
   font-family: sans-serif;
   font-size: 200px;
   opacity: 0;
@@ -50,23 +50,25 @@ p:hover {
 .s {
   position: relative;
   top: 70px;
-  left: 100px;
+  left: 80px;
   color: rgb(3, 3, 3);
   font-family: sans-serif;
-  font-size: 100px;
+  font-size: 120px;
   opacity: 1;
   font-family: "Lora", serif;
-  z-index: 1;
+  z-index: 1000;
 }
 #How-o {
   width: 270px;
   height: 200px;
+
   background-image: url("img/P1/P1__HOW_o.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
+  z-index: 0;
 }
 #How-w {
   width: 270px;
@@ -144,7 +146,7 @@ p:hover {
   background-image: url("img/P1/P1_LIGHT_g.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
@@ -185,9 +187,13 @@ p:hover {
   background-image: url("img/P1/P1_A_a.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
+
+  color: rgb(3, 3, 3);
+  font-family: sans-serif;
+  font-size: 120px;
 }
 
 #column5 {
@@ -215,6 +221,21 @@ p:hover {
   background-color: rgb(255, 0, 128);
   background-blend-mode: lighten;
   opacity: 0.8;
+
+  color: rgb(3, 3, 3);
+  font-family: sans-serif;
+  font-size: 120px;
+}
+#Candle_A {
+  position: relative;
+  top: 20px;
+  left: 180px;
+  color: rgb(3, 3, 3);
+  font-family: sans-serif;
+  font-size: 120px;
+  opacity: 0;
+  font-family: "Lora", serif;
+  z-index: 1000;
 }
 #Candle_n {
   width: 170px;
@@ -222,7 +243,7 @@ p:hover {
   background-image: url("img/P1/P1_CANDLE_n.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 0, 128);
+  background-color: rgb(0, 183, 255);
   background-blend-mode: lighten;
   opacity: 0.8;
 }
