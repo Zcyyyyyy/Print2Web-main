@@ -1,8 +1,451 @@
 @media (max-width: 768px) {
   body {
-    background: black;
+    background: rgb(0, 0, 0);
   }
   .main {
     opacity: 0;
+    display: none;
+  }
+  .page10-container {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  .contain {
+    background-color: rgb(0, 0, 0);
+    border: 10px solid rgb(0, 0, 0);
+
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #A {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/A_a.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #B {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/B_b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #C {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/C_c.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #D {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/D_d.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  .page11-container {
+    position: absolute;
+    top: 40px;
+    left: 829px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  #E {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/E_e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #F {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/F_f.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #G {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/G-g.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #H {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/G-g.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  .page12-container {
+    position: absolute;
+    top: 40px;
+    left: 1608px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  #I {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/I_i.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #J {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/J_j.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #K {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/K_k.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #L {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/L_l.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  .page13-container {
+    position: absolute;
+    top: 40px;
+    left: 2387px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  #M {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/M_m.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #N {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/N_n.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #O {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/O_o.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #P {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/P_p.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  .page14-container {
+    position: absolute;
+    top: 40px;
+    left: 3166px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  #Q {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/Q_q.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #R {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/R_r.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #S {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/S_s.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #T {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/S_s.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  .page15-container {
+    position: absolute;
+    top: 40px;
+    left: 3945px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  #U {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/U_u.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #V {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/V_v.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #W {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/W_w.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #X {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/X_x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  .page16-container {
+    position: absolute;
+    top: 40px;
+    left: 4724px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
+  #Y {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/Y_y.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+  #Z {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("img/mq/Z_z.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(226, 0, 0);
+    background-blend-mode: lighten;
+    opacity: 0.8;
+  }
+
+  .T7 {
+    position: relative;
+    top: 145px;
+    left: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    font-family: "Lora", serif;
+    opacity: 1;
+  }
+  .T7:hover {
+    opacity: 1;
+    z-index: 1;
+    animation-timing-function: ease-in 1s;
+  }
+  .T8 {
+    position: relative;
+    top: 145px;
+    left: 60px;
+    color: rgb(226, 0, 0);
+    font-size: 150px;
+    font-family: "Lora", serif;
+    opacity: 1;
   }
 }
