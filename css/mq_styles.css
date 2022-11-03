@@ -2,4 +2,7 @@
   body {
     background: black;
   }
+  .main {
+    opacity: 0;
+  }
 }
