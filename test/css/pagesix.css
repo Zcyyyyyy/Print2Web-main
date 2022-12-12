@@ -1,0 +1,26 @@
+#w6_1 {
+  position: relative;
+  top: 120px;
+  width: 721px;
+  height: 145vh;
+  display: flex;
+}
+#w6_2 {
+  position: relative;
+  top: 2px;
+  width: 721px;
+  height: 100vh;
+  display: flex;
+}
+#w6_3 {
+  position: relative;
+  top: 0px;
+  width: 721px;
+  height: 150vh;
+  display: flex;
+}
+#content6 {
+  position: relative;
+  top: 50px;
+  left: 170px;
+}

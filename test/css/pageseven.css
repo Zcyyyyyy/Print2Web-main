@@ -1,0 +1,15 @@
+#content7 {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  left: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+#print7 {
+  position: relative;
+  top: 120px;
+  left: -220px;
+}

@@ -1,0 +1,58 @@
+#art5 {
+  position: relative;
+  top: 440px;
+  left: 25px;
+  width: 600px;
+}
+#artist5 {
+  position: relative;
+  top: 530px;
+  left: -169px;
+  width: 600px;
+}
+
+#description5 {
+  position: relative;
+  top: 580px;
+  left: -368px;
+  width: 800px;
+}
+
+#w5_1 {
+  position: relative;
+  top: 2px;
+  width: 721px;
+  height: 100vh;
+  display: flex;
+}
+#w5_2 {
+  position: relative;
+  top: 2px;
+  width: 721px;
+  height: 100vh;
+  display: flex;
+}
+
+#content5 {
+  position: relative;
+  top: 0px;
+  left: 170px;
+  height: 100vh;
+}
+
+#video4 {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  height: 100vh;
+}
+
+#link5 {
+  position: relative;
+  top: -110px;
+  left: -20px;
+  text-align: left;
+  font-size: 14px;
+  width: 600px;
+  height: 300px;
+}

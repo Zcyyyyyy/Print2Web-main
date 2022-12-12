@@ -1,0 +1,12 @@
+@media print {
+  .swiper-slide {
+    opacity: 0;
+    display: none;
+  }
+  #w1_p1 {
+    height: 30px;
+    width: 10px;
+
+    color: white;
+  }
+}

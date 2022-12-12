@@ -1,0 +1,66 @@
+#min2 {
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+#sec2 {
+  position: relative;
+  top: 40px;
+  left: 360px;
+}
+
+#art2 {
+  position: relative;
+  top: 400px;
+  left: 10px;
+}
+#artist2 {
+  position: relative;
+  top: 460px;
+  left: -180px;
+  width: 400px;
+}
+
+#description2 {
+  position: relative;
+  top: 540px;
+  left: -429px;
+}
+
+#w2_1 {
+  position: relative;
+  top: 112px;
+  width: 721px;
+  height: 913px;
+  display: flex;
+}
+
+#w2_2 {
+  position: relative;
+  top: 310px;
+  width: 721px;
+  height: 913px;
+  display: flex;
+}
+
+#content2 {
+  position: relative;
+  top: 450px;
+  left: 200px;
+  width: 500px;
+  font-size: 14px;
+}
+
+#print2 {
+  position: relative;
+  top: 280px;
+  left: 200px;
+}
+#link2 {
+  position: relative;
+  top: -200px;
+  left: -30px;
+  text-align: left;
+  font-size: 12px;
+  width: 400px;
+}

@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poiret One", sans-serif;
+  background: black;
+}
+
+a {
+  color: white;
+  margin: 1rem;
+}
+
+.wrapper {
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+}
+
+.wrapper2 {
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+}
+
+#about {
+  color: white;
+  background: black;
+}
+#work2 {
+  color: white;
+  background: black;
+}
+#work3 {
+  color: white;
+  background: black;
+}
+#work4 {
+  color: white;
+  background: black;
+}
+#work6 {
+  color: white;
+  background: black;
+}
+.title {
+  display: flex;
+
+  width: 50%;
+  height: 100vh;
+  background: rgb(250, 249, 252);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.scroll {
+  width: 50%;
+  color: white;
+}
+.scroll2 {
+  width: 50%;
+  color: white;
+}
+
+.scroll div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.scroll2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapperlast {
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  left: 600px;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+  background: white;
+}

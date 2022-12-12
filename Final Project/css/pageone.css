@@ -1,0 +1,136 @@
+.timerName {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#min {
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+#sec {
+  position: relative;
+  top: 40px;
+  left: 260px;
+}
+.timer {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  /*left: 920px;*/
+  color: white;
+  font-size: 120px;
+}
+
+.titleB {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: 300px;
+}
+
+#art1 {
+  position: relative;
+  top: 400px;
+  left: 10px;
+}
+
+.artist {
+  font-size: 20px;
+  color: white;
+}
+
+#artist1 {
+  position: relative;
+  top: 460px;
+  left: -148px;
+}
+
+.description {
+  font-size: 16px;
+  font-style: oblique;
+  color: white;
+  text-align: left;
+  line-height: 1.8;
+}
+
+#description1 {
+  width: 600px;
+  position: relative;
+  top: 540px;
+  left: -327px;
+}
+
+#fog1 {
+  position: relative;
+  width: 100%;
+}
+#fog2 {
+  position: relative;
+  width: 100%;
+}
+#fog3 {
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  width: 430px;
+  font-size: 17px;
+  color: white;
+  text-align: left;
+  line-height: 1.8;
+  justify-content: center;
+  align-items: center;
+}
+
+#content1 {
+  position: relative;
+  top: 100px;
+  left: 170px;
+}
+.video {
+  width: 720px;
+}
+
+#video1 {
+  position: relative;
+  top: 150px;
+  left: 0px;
+}
+
+.button {
+  background: white;
+  border-radius: 25px;
+  border: 2px;
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+#print1 {
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.link {
+  width: 400px;
+  font-size: 16px;
+  font-style: oblique;
+  color: white;
+  text-align: left;
+  line-height: 1.8;
+}
+#link1 {
+  position: relative;
+  top: -200px;
+  left: -130px;
+}
