@@ -3,7 +3,7 @@ function count(activeIndex) {
     clearInterval(window.timer);
   }
   // 配置从多少时间倒计时
-  let timeSecond = 300;
+  let timeSecond = 180;
   let timeH = document.getElementsByClassName("timer");
   if (!timeH[Number(activeIndex)]) {
     return;
@@ -34,7 +34,7 @@ function count(activeIndex) {
 var mySwiper = new Swiper(".swiper", {
   autoplay: {
     // 15分钟为：1000 * 60 *15
-    delay: 30000,
+    delay: 18000,
     stopOnLastSlide: true,
     disableOnInteraction: false
   },
